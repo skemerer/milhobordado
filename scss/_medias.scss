@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+    .logo {
+        width: 30px;
+    }
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 921px) {
+    .contact-container {
+        flex-direction: column; 
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 12px;
+    }
+     }
+
+
+     @media (min-width: 1200px) {
+        body {
+            font-size: 20px;
+        }
+         }
+
+
+    
