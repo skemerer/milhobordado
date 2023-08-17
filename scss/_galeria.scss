@@ -15,18 +15,17 @@
 
 
 .colorBtn {
-    background-color: #3498db ; /* Cambia el color del fondo del botón a turquesa */
-    color: white; /* Cambia el color del texto a blanco */
-    padding: 10px 20px; /* Ajusta el espaciado interno del botón */
-    border-radius: 5px; /* Agrega esquinas redondeadas */
-    text-decoration: none; /* Quita la subrayado del enlace */
-    transition: background-color 0.3s, color 0.3s; /* Agrega una transición suave */
+    background-color: #3498db ; 
+    color: white;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    transition: background-color 0.3s, color 0.3s; 
 }
 
-/* Cambio de color del botón al pasar el mouse sobre él */
 .colorBtn:hover {
-    background-color:turquoise ; /* Cambia el color de fondo al pasar el mouse */
-    color: white; /* Mantén el color del texto en blanco */
+    background-color:turquoise ; 
+    color: white; 
 }
 
 .gallery {
@@ -36,7 +35,7 @@
 }
 
 .card-container {
-    margin-top: 100px; /* Ajusta el valor según sea necesario para dejar espacio */
+    margin-top: 100px; 
     margin-bottom: 50px;
 }
 

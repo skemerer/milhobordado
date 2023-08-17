@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 body {
   background-color: #f7f7f7;
@@ -53,35 +52,34 @@ footer {
 }
 
 .subtitulo {
-  font-size: 1.5em; /* Tamaño de fuente relativo */
-  margin-bottom: 10px; /* Margen inferior reducido */
+  font-size: 1.5em;
+  margin-bottom: 10px;
 }
 
 .formulario label {
-  font-size: 0.9em; /* Tamaño de fuente más pequeño para etiquetas */
+  font-size: 0.9em;
 }
 
-/* Media query para pantallas grandes (ancho mayor a 1200px) */
 .subtitulo {
-  font-size: 2em; /* Tamaño de fuente más grande para pantallas grandes */
-  margin-bottom: 20px; /* Margen inferior aumentado */
+  font-size: 2em;
+  margin-bottom: 20px;
 }
 
 .formulario label {
-  font-size: 1em; /* Tamaño de fuente normal para etiquetas */
+  font-size: 1em;
 }
 
 .contact-container {
   display: flex;
   flex-direction: column;
-  gap: 20px; /* Espacio vertical entre cada contacto */
+  gap: 20px;
   margin-bottom: 30px;
 }
 
 .contact-item {
   display: flex;
   align-items: center;
-  gap: 10px; /* Espacio horizontal entre el ícono y el texto */
+  gap: 10px;
 }
 
 .preguntas-frecuentes {
@@ -102,7 +100,7 @@ footer {
 }
 
 .logo {
-  width: 70px;
+  width: 80px;
 }
 
 .custom-navbar {
@@ -126,8 +124,8 @@ footer {
 
 .hero {
   color: #333;
-  padding: 50px 0;
-  margin-top: 100px;
+  padding: 0px 0;
+  margin-top: 55px;
 }
 
 a {
@@ -150,18 +148,17 @@ a {
 }
 
 .colorBtn {
-  background-color: #3498db; /* Cambia el color del fondo del botón a turquesa */
-  color: white; /* Cambia el color del texto a blanco */
-  padding: 10px 20px; /* Ajusta el espaciado interno del botón */
-  border-radius: 5px; /* Agrega esquinas redondeadas */
-  text-decoration: none; /* Quita la subrayado del enlace */
-  transition: background-color 0.3s, color 0.3s; /* Agrega una transición suave */
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
 }
 
-/* Cambio de color del botón al pasar el mouse sobre él */
 .colorBtn:hover {
-  background-color: turquoise; /* Cambia el color de fondo al pasar el mouse */
-  color: white; /* Mantén el color del texto en blanco */
+  background-color: turquoise;
+  color: white;
 }
 
 .gallery {
@@ -171,7 +168,7 @@ a {
 }
 
 .card-container {
-  margin-top: 100px; /* Ajusta el valor según sea necesario para dejar espacio */
+  margin-top: 100px;
   margin-bottom: 50px;
 }
 
@@ -236,7 +233,7 @@ a {
 
 @media (max-width: 768px) {
   .logo {
-    width: 30px;
+    width: 40px;
   }
 }
 .contact-container {
