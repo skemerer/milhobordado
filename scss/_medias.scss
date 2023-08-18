@@ -1,6 +1,6 @@
 @media (max-width: 768px) {
     .logo {
-        width: 40px;
+        width: 50px;
     }
 }
 
@@ -30,3 +30,16 @@
         font-size: 20px;
     }
 }
+
+@media (max-width: 767px) {
+    .card-container {
+      margin: 1px 1px;
+      margin-top: 70px;
+    }
+  
+    .col-xl-3 {
+      flex-basis: calc(50% - 10px);
+    }
+  }
+
+  

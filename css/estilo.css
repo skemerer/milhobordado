@@ -100,7 +100,7 @@ footer {
 }
 
 .logo {
-  width: 80px;
+  width: 75px;
 }
 
 .custom-navbar {
@@ -125,24 +125,34 @@ footer {
 .hero {
   color: #333;
   padding: 0px 0;
-  margin-top: 55px;
+  margin-top: 50px;
+  margin-bottom: 0;
+  color: #2b2929;
+}
+
+.gradient-background {
+  background-image: linear-gradient(to bottom, #7edfba, #fdfdfd);
 }
 
 a {
   text-decoration: none;
 }
 
+.smaller-button {
+  font-size: 0.8rem;
+}
+
 .card-img-top {
-  height: 80px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .card-img-top {
   border-radius: 10px;
-  padding: 4px;
+  padding: 20px;
   max-width: 100%;
   height: auto;
 }
@@ -163,7 +173,7 @@ a {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 5px;
 }
 
@@ -173,7 +183,7 @@ a {
 }
 
 .subtitulo {
-  margin-top: 30px;
+  margin-top: 70px;
   margin-bottom: 30px;
 }
 
@@ -233,7 +243,7 @@ a {
 
 @media (max-width: 768px) {
   .logo {
-    width: 40px;
+    width: 50px;
   }
 }
 .contact-container {
@@ -257,6 +267,15 @@ a {
 @media (min-width: 1200px) {
   body {
     font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .card-container {
+    margin: 1px 1px;
+    margin-top: 70px;
+  }
+  .col-xl-3 {
+    flex-basis: calc(50% - 10px);
   }
 }
 
