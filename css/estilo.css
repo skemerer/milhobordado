@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 body {
   background-color: #f7f7f7;
@@ -122,6 +123,12 @@ footer {
   padding: 8px 0;
 }
 
+.seccionTitulo {
+  text-align: center;
+  padding: 50px;
+  background-image: linear-gradient(to bottom, #7edfba, #fdfdfd);
+}
+
 .hero {
   color: #333;
   padding: 0px 0;
@@ -189,6 +196,24 @@ a {
 
 .card-title {
   font-size: 18px;
+}
+
+.gallery {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 100%;
+  /* Evita que la galería se desborde en pantallas pequeñas */
+}
+
+.gallery img {
+  width: calc(33.33% - 10px);
+  /* Ajusta el ancho de cada imagen */
+  margin-bottom: 20px;
+  /* Agrega espacio entre las imágenes */
+  max-width: 100%;
+  /* Asegura que las imágenes no se desborden */
 }
 
 .container {
