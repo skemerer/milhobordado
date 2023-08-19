@@ -33,13 +33,11 @@
 
 @media (max-width: 767px) {
     .card-container {
-      margin: 1px 1px;
-      margin-top: 70px;
+        margin: 1px 1px;
+        margin-top: 70px;
     }
-  
-    .col-xl-3 {
-      flex-basis: calc(50% - 10px);
-    }
-  }
 
-  
+    .col-xl-3 {
+        flex-basis: calc(50% - 10px);
+    }
+}

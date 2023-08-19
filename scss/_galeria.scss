@@ -54,14 +54,10 @@
     flex-wrap: wrap;
     justify-content: space-between;
     max-width: 100%;
-    /* Evita que la galería se desborde en pantallas pequeñas */
 }
 
 .gallery img {
     width: calc(33.33% - 10px);
-    /* Ajusta el ancho de cada imagen */
     margin-bottom: 20px;
-    /* Agrega espacio entre las imágenes */
     max-width: 100%;
-    /* Asegura que las imágenes no se desborden */
 }

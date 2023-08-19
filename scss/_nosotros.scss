@@ -11,12 +11,8 @@
 }
 
 .quienes-somos {
-  padding: 40px 0
-}
-
-.quienes-somos p {
-  font-size: 16px;
-  line-height: 1.6;
+  padding: 40px 0;
+  margin-bottom: 80px;
 }
 
 /* Estilos para la foto y el video */
@@ -28,17 +24,20 @@
 
 .columna-foto {
   padding: 10px;
-  margin-top: 100px;
+  margin-top: 20px;
+  margin-right: 5px;
 }
+
 
 .columna-foto img {
   max-width: 100%;
   height: auto;
+  margin-right: 5px;
 }
 
 .columna-video {
   padding: 10px;
-  margin-top: 80px;
+  margin-top: 20px;
   width: 100%;
 }
 
