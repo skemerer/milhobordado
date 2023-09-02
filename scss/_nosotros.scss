@@ -1,48 +1,12 @@
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
 
-.subtitulo {
-  font-size: 24px;
-  margin-bottom: 20px;
-  margin-top: 50px;
-}
-
-.quienes-somos {
-  padding: 40px 0;
-  margin-bottom: 80px;
-}
-
-/* Estilos para la foto y el video */
-.contenedor-foto-video {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.columna-foto {
-  padding: 10px;
-  margin-top: 20px;
-  margin-right: 5px;
+.single-well>a {
+  display: block;
 }
 
 
-.columna-foto img {
-  max-width: 100%;
-  height: auto;
-  margin-right: 5px;
-}
 
-.columna-video {
-  padding: 10px;
-  margin-top: 20px;
-  width: 100%;
-}
 
-.columna-video iframe {
-  max-width: 100%;
-  height: 300px;
-  width: 500px;
-}
+
+
+
+

@@ -19,13 +19,14 @@ footer {
 .carousel {
   margin: 0;
   padding: 0;
+
 }
 
 .texto {
   margin-top: 150px;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
 }
 
 .formulario {
@@ -81,11 +82,6 @@ footer {
   display: flex;
   align-items: center;
   gap: 10px;
-}
-
-.preguntas-frecuentes {
-  max-width: 800px;
-  margin: 0 auto;
 }
 
 .pregunta {

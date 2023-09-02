@@ -41,3 +41,7 @@
         flex-basis: calc(50% - 10px);
     }
 }
+
+html, body {
+    overflow-x: hidden;
+  }

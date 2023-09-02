@@ -8,7 +8,12 @@ body {
     margin: 0;
     padding: 0;
     font-size: 20px;
+    overflow-x: hidden;
 }
+
+html, body {
+    overflow-x: hidden;
+  }
 
 footer {
     font-size: 12px;
@@ -51,8 +56,6 @@ footer {
 }
 
 
-
-
 .subtitulo {
     font-size: 1.5em;
     margin-bottom: 10px;
@@ -85,10 +88,6 @@ footer {
     gap: 10px;
 }
 
-.preguntas-frecuentes {
-    max-width: 800px;
-    margin: 0 auto;
-}
 
 .pregunta {
     margin-bottom: 20px;
@@ -101,3 +100,4 @@ footer {
 .respuesta p {
     margin-top: 10px;
 }
+
